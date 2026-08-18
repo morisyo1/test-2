@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فروشگاه لوازم خانگی مدرن</title>
+    <style>
+        body { font-family: Tahoma, sans-serif; margin: 0; background-color: #f4f4f9; color: #333; }
+        header { background-color: #1e293b; color: white; padding: 20px; text-align: center; }
+        nav { background-color: #0f172a; padding: 10px; text-align: center; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .container { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; gap: 20px; }
+        .card { background: white; border-radius: 8px; width: 250px; padding: 15px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center; }
+        .card img { max-width: 100%; border-radius: 5px; }
+        .price { color: #e11d48; font-weight: bold; margin: 10px 0; }
+        button { background-color: #2563eb; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; }
+        footer { background-color: #1e293b; color: white; text-align: center; padding: 15px; position: fixed; bottom: 0; width: 100%; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>فروشگاه آنلاین لوازم خانگی</h1>
+</header>
+
+<nav>
+    <a href="#">صفحه اصلی</a>
+    <a href="#">یخچال و فریزر</a>
+    <a href="#">ماشین لباسشویی</a>
+    <a href="#">تماس با ما</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="یخچال">
+        <h3>یخچال ساید بای ساید</h3>
+        <p class="price">۴۵,۰۰۰,۰۰۰ تومان</p>
+        <button>افزودن به سبد خرید</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="لباسشویی">
+        <h3>ماشین لباسشویی ۸ کیلویی</h3>
+        <p class="price">۲۲,۰۰۰,۰۰۰ تومان</p>
+        <button>افزودن به سبد خرید</button>
+    </div>
+    <div class="card">
+        <img src="https://via.placeholder.com/200" alt="مایکروویو">
+        <h3>مایکروویو دیجیتال</h3>
+        <p class="price">۸,۵۰۰,۰۰۰ تومان</p>
+        <button>افزودن به سبد خرید</button>
+    </div>
+</div>
+
+<footer>
+    <p>تمامی حقوق برای فروشگاه لوازم خانگی محفوظ است.</p>
+</footer>
+
+</body>
+</html>
